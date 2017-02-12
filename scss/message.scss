@@ -1,0 +1,23 @@
+@import 'colors';
+
+.messages li {
+  &:nth-child(even) {
+    background: $primary;
+    color: $primarytext;
+    margin-bottom: 2em;
+  }
+
+  &:nth-child(odd) {
+    color: $secondarytext;
+    margin-bottom: 2em;
+  }
+}
+
+ul.messages {
+  list-style-type: none;
+}
+
+.message {
+  line-height: 1.5em;
+  font-size: 2em;
+}
