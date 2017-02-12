@@ -1,0 +1,35 @@
+@import 'colors';
+@import 'layers';
+
+.center {
+  width: 100vw;
+  height: 100vh;
+
+  z-index: $middle;
+
+  background: $primary;
+
+  @include position(fixed);
+
+  @include display(flex);
+  @include flex-direction(column);
+  @include align-items(center);
+  @include justify-content(center);
+
+  top: 0;
+  left: 0;
+}
+
+h1, label {
+  color: $primarytext;
+}
+
+label {
+  font-size: 2em;
+}
+
+.login-button {
+  @include position(absolute);
+  z-index: $top;
+  background: $primarytext;
+}
