@@ -4,12 +4,12 @@
   &:nth-child(even) {
     background: $primary;
     color: $primarytext;
-    margin-bottom: 2em;
+    margin-bottom: 0;
   }
 
   &:nth-child(odd) {
     color: $secondarytext;
-    margin-bottom: 2em;
+    margin-bottom: 0;
   }
 }
 
@@ -20,4 +20,8 @@ ul.messages {
 .message {
   line-height: 1.5em;
   font-size: 2em;
+}
+
+.message-container {
+  margin-left: 4em;
 }
