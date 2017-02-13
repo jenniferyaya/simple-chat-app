@@ -32,4 +32,11 @@ label {
   @include position(absolute);
   z-index: $top;
   background: $primarytext;
+  left: 47%;
+  top: 510px;
+}
+
+#username {
+  max-width: 25vw;
+  max-height: 10vh;
 }
