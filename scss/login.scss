@@ -25,15 +25,16 @@ h1, label {
 }
 
 label {
-  font-size: 2em;
+  font-size: 1.5em;
+  @include align-items(center);
 }
 
 .login-button {
   @include position(absolute);
   z-index: $top;
   background: $primarytext;
-  left: 47%;
-  top: 510px;
+  left: 41%;
+  top: 550px;
 }
 
 #username {
