@@ -17,7 +17,7 @@
     margin: 0;
 
     @include display(flex);
-    @include flex-direction(column);
+    @include flex-direction(row);
     @include justify-content(center);
     @include align-items(center);
 
@@ -29,11 +29,14 @@
         padding: 5px 15px;
         &.connect { background: rgb(139, 155, 88); }
         &.disconnect { background: rgb(133, 17, 17); }
-          &.info { background: rgba(9, 172, 252, .70); }
+
+          &.info {
+            background: rgba(9, 172, 252, .70);
+          }
 
           &.disconnect,
           &.info {
-            color: white;
+            color: pink;
           }
       }
     }

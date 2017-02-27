@@ -5,11 +5,17 @@
     background: $primary;
     color: $primarytext;
     margin-bottom: 0;
+
+    border-radius: .5em;
+    padding: 20px;
   }
 
   &:nth-child(odd) {
     color: $secondarytext;
-    margin-bottom: 0;
+    margin-bottom: 3em;
+
+    border-radius: .5em;
+    padding: 20px;
   }
 }
 
@@ -20,8 +26,14 @@ ul.messages {
 .message {
   line-height: 1.5em;
   font-size: 2em;
+  text-align: center;
 }
 
 .message-container {
   margin-left: 4em;
+  border-radius: .5em;
+}
+
+.textarea {
+  background: red;
 }

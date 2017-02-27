@@ -1,0 +1,1 @@
+#message-bay{position:fixed;bottom:0;left:0;width:100vw;height:3.5vh;min-height:250px;display:flex;flex-wrap:nowrap;align-items:center;justify-content:flex-start}#message-bay.message-container{height:100%;width:90%;resize:none}#message-bay.message-container:focus{background:#c763ff;outline:none}.messages{height:75vh;overflow-y:scroll}
