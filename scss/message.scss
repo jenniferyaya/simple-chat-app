@@ -21,6 +21,7 @@
 
 ul.messages {
   list-style-type: none;
+  margin-right: 2em;
 }
 
 .message {
@@ -31,9 +32,35 @@ ul.messages {
 
 .message-container {
   margin-left: 4em;
-  border-radius: .5em;
+  border-radius: .25em;
+  background: url("../images/milhouse.png");
+  background-position: right top;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 50%;
+  color: $primarytext;
+  font-size: 1em;
+  background-color: #ffffff;
+  align-content: center;
+
+  position: relative;
+  top: 10%;
+  left: 20%;
+
+  padding: 3em;
 }
 
-.textarea {
-  background: red;
+body {
+  background-color: $pink;
+}
+
+.message-button {
+  background-color: $primarytext;
+  color: $pink;
+  font-size: 1em;
+  position: absolute;
+  top: 35%;
+  left: 76%;
+  height: 50%;
+  width: 10%;
 }
