@@ -22,6 +22,8 @@
 
 h1, label {
   color: $primarytext;
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: bold;
 }
 
 label {
@@ -36,6 +38,8 @@ label {
   top: 550px;
   color: $primary;
   font-size: 1em;
+
+  font-family: 'Comfortaa', sans-serif;
 }
 
 #username {
