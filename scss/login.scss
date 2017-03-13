@@ -22,7 +22,7 @@
 
 h1, label {
   color: $primarytext;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
 }
 
@@ -34,12 +34,13 @@ label {
   @include position(absolute);
   z-index: $top;
   background: $primarytext;
-  left: 41%;
+  left: 31%;
   top: 550px;
   color: $primary;
   font-size: 1em;
 
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
 #username {

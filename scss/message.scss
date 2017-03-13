@@ -29,12 +29,12 @@ ul.messages {
   font-size: 2em;
   text-align: center;
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .message-container {
   margin-left: 4em;
-  border-radius: .25em;
+  border: .15em solid $primarytext;
   background: url("../images/milhouse.png");
   background-position: right top;
   background-repeat: no-repeat;
@@ -42,7 +42,7 @@ ul.messages {
   height: 50%;
   color: $primarytext;
   font-size: 1em;
-  background-color: #ffffff;
+  background-color: $pink;
   align-content: center;
 
   position: relative;
@@ -59,7 +59,7 @@ body {
 .message-button {
   background-color: $primarytext;
   color: $pink;
-  font-size: 1em;
+  font-size: 1.15em;
   position: absolute;
   top: 35%;
   left: 76%;
